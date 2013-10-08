@@ -1,4 +1,4 @@
-BASE ubuntu
+FROM ubuntu
 RUN add-apt-repository -y ppa:ubuntu-toolchain-r/test
 RUN apt-get update
 RUN apt-get install -y gcc-4.8 g++-4.8
